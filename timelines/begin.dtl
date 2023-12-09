@@ -1,13 +1,32 @@
-join Jean-eud 1 [animation="Fade In Up"]
-Jean-eud: HELLO
-- HELLO
-	CA VA?
-	- ca va
-		yes
-	- HAMOULAH
-		lai3an waldik
-- GOOD BYE
-	GOOD BYE MY REUF
-- ntm
-	jump escape/
-<Empty Text Event>
+[background arg="res://assets/INT_BASEMENT_NIGHT.png" fade="0.0"]
+Hum...
+Où... Où suis-je?
+Qu'est-ce qui s'est passé?
+Je marchais la nuit seul vers le super marché. Puis, en rentrant chez moi... quelqu'un me suivait.
+Il y avait cette personne... cagoulée. Elle est apparue derrière moi, a mis un mouchoir sur mon visage...
+Un somnifère... l'odeur... Je me suis évanoui.
+Et maintenant, je me réveille ici, je suis attaché à une chaise, mes mains on été ligotées avec une corde, c'est trop serré, je ne peux pas bouger.
+ Où suis-je?
+Il faut que je m'échappe. Il faut que je trouve un moyen de sortir d'ici.
+Qui êtes-vous? Pourquoi suis-je ici?
+Jean-eud: ...
+Jean-eud: Ah, te voilà réveillé.
+Qui êtes vous?
+Dites-moi ce qui se passe. Pourquoi suis-je ici?
+Jean-eud: Ne pose plus de question inutile ou ca va mal finir.
+Jean-eud: C'EST MOI QUI PARLE ICI.
+...
+Jean-eud: Je vais t'expliquer la raison pour laquelle tu te trouve ici, je vais être clair et je ne vais pas me répéter.
+Jean-eud: j’ai fait faillite après avoir investi ÉNORMÉMENT d’argent sur une application mobile...
+- Combien avez-vous investi?
+	Jean-eud: 300€...
+	...
+- Quelle était cette application?
+	Jean-eud: C'était un trombinoscope...
+	(Tiens, ca me dis un truc...)
+Jean-eud: Bref, tout ça c'est du passé maintenant mon but est de me lancer vers une nouvelle aventure!!
+Que voulez vous faire?
+Jean-eud: J'ai envie...
+Jean-eud: De créer...
+Jean-eud: UN JEU VIDEO!!!!!!
+...
