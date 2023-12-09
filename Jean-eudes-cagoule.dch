@@ -19,9 +19,10 @@
 "export_overrides": {
 "image": "\"res://icon.svg\""
 },
+"ignore_char_scale": true,
 "mirror": false,
 "offset": Vector2(0, 0),
-"scale": 1,
+"scale": 0.5,
 "scene": ""
 },
 "icon": {
