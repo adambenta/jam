@@ -1,0 +1,42 @@
+Jean-eud (cagoulé): Mhhh, un jeu de combat, ca me semble etre une bonne idée
+Jean-eud (cagoulé): Et comment voudrais tu l'appeler ce jeu?
+set {jdc.Name} = "test"
+[text_input var="jdc.Name"]
+Jean-eud (cagoulé): {jdc.Name} ?
+Jean-eud (cagoulé): Tu te fout de moi? Trouve moi un meilleur nom avant que je m'énèrve !
+set {jdc.Name} = "test"
+[text_input var="jdc.Name"]
+Jean-eud (cagoulé): {jdc.Name} ...
+Jean-eud (cagoulé): J'AIME BIEN !
+label Plateforme
+Jean-eud (cagoulé): Sur quelle plateforme pense tu que nous devrions sortir mon jeu {jdc.Name} ?
+- Téléphone
+	set {jdc.Plat} = "Téléphone"
+	Jean-eud (cagoulé): Tu veux toucher un large public avec ça?
+- PC
+	set {jdc.Plat} = "PC"
+	Jean-eud (cagoulé): Ca peut couter cher en production pour faire un jeu de bonne qualité, mais ça me va
+- Console
+	set {jdc.Plat} = "Console"
+	Jean-eud (cagoulé): C'est pas bete, je pourrais envisager un partenariat d'exclusité avec une console
+- Nul part
+	Jean-eud (cagoulé): ...
+	Jean-eud (cagoulé): Fais ton petit malin, rira bien qui rira le dernier, je te conseille de ne pas m'énerver
+	jump Plateforme
+Jean-eud (cagoulé): J'aime bien ton idée. je vais aller voir mon équipe et les faire bosser sur {jdc.Name} pour le sortir sur {jdc.Plat} au plus vite
+Jean-eud (cagoulé): NE BOUGE PAS D'ICI ! Si je te vois tenté la moindre chose, tu le regreterra
+leave Jean-eud [animation="Slide Out Left"]
+label Jean-eud leaves
+Vous prenez le temps d'observer la pièce
+[wait_input]
+Vous remarquez beaucoup d'objets dans la pièces, des cordes, des outils, un ordinateur, une porte au fond, un escalier qui remonte
+Vous entendez le kidpanneur parler a l'étage, vous observez un tournevis posé non loin de vous au sol, décidez vous de le récupérer? Le kidnappeur pourrait arriver d'un moment a l'autre
+- Oui, je ramasse
+	Vous essayez d'atteindre le tournevis avec vos pieds
+	Votre but et de le ramasser, mais vous entendez le kidnappeur arriver
+	Pris de panique vous vous dépéchez de l'atteindre, et vous le cachez sous votre pied
+	set {jdc.Tournevise} = 1
+- Non, je ne bouge pas
+	Vous continuez de prendre le temps d'observer, et entendez des pas déscendre de l'étage
+join Jean-eud 1 [animation="Slide In Right"]
+Jean-eud (cagoulé): Je suis de retour, je ne t'ait pas trop manqué? De toute façon on va se voir souvent toi et moi d'ici les prochains jours, semaines, voir mois, je n'ait pas encore décidé haha
