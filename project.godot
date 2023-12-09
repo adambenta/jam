@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Jam"
+run/main_scene="res://timelines/begin.dtl"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -20,7 +21,13 @@ Dialogic="*res://addons/dialogic/Other/DialogicGameHandler.gd"
 
 [dialogic]
 
-variables={}
+variables={
+"jdc": {
+"Name": "",
+"Plat": "",
+"Tournevise": ""
+}
+}
 layout/style_list=[]
 layout/default_style="Default"
 glossary/default_case_sensitive=true
@@ -40,6 +47,10 @@ choices/reveal_by_input=false
 save/autosave_delay=60.0
 save/encryption_on_exports_only=true
 text/autopauses={}
+
+[dotnet]
+
+project/assembly_name="Jam"
 
 [editor_plugins]
 
