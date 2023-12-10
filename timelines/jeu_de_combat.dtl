@@ -67,7 +67,9 @@ Jean-eud (cagoulé): Mon jeu {jdc.Name} va devenir le jeu numéro 1 j'en suis su
 Comment ca t'on monétiser le jeu?
 - Le rendre gratuit
 	moi: Je pense que rendre le jeu gratuis le rendra beaucoup plus accessible et permettra du coup d'avoir plus de joueur.
-	Jean-eud (cagoulé): Je vois très bonne idée, fesons comme ca alors
+	Jean-eud (cagoulé): Je vois très bonne idée, faisons comme ca alors.
+	leave Jean-eud
+	jump mariage/
 - Le rendre payant
 	moi: Mettons le jeu payant pour pouvoir gagner des revenus.
 	Jean-eud: Je vois, il faut bien gagner de l'argent quand même
