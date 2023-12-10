@@ -53,6 +53,7 @@ moi: D'accord laissez moi réflechire
 label Choix du jeu
 moi: ...
 - Un jeu de combat
+	jump jeu_de_combat/
 - Un jeu de platforme
 	jump platformer/
 - J'ai pas d'idée...
