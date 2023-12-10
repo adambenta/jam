@@ -34,7 +34,9 @@ Vous entendez le kidnappeur en train de redescendre des escaliers, vous décidez
 		[end_timeline]
 - Se cacher dèrrière des cartons
 	Vous vous cachez derriere les boites et arretez de bouger
+	join Jean-eud (cagoulé-enervé) 1
 	Jean-eud (cagoulé-enervé): AHHHHH ! OU EST TU PARTI ?!!
+	update Jean-eud 2
 	Le kidnappeur cherche un peu partout, et se rapproche de votre position, que faites vous?
 	- Sortir et courir vers la porte
 		Vous sortez et jeter des cartons sur le kidnappeur
