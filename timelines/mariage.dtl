@@ -18,4 +18,6 @@ jean-eudes-lover: J'ai décidé, grâce à ton implication sur le projet, de nou
 jean-eudes-lover: Allez prépars ta valise on va passer des vacances de fou.
 leave jean-eudes-lover
 [background arg="res://assets/79371e80e662b8836873e9fc91d94a4f.jpg" fade="0.0"]
+[music path="res://assets/Loona - Vamos a la playa OFFICIAL VIDEO.mp3" fade="0.0" volume="0.0"]
 Good ending
+jump Menu/

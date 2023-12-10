@@ -31,7 +31,7 @@ Vous entendez le kidnappeur en train de redescendre des escaliers, vous décidez
 		PAN !
 		Jean-eud (cagoulé-gun): MERDE !
 		Vous vous écroulez au sol, et c'en est finis pour vous..
-		[end_timeline]
+		jump Menu/
 - Se cacher dèrrière des cartons
 	Vous vous cachez derriere les boites et arretez de bouger
 	join Jean-eud (cagoulé-enervé) 1
@@ -47,7 +47,7 @@ Vous entendez le kidnappeur en train de redescendre des escaliers, vous décidez
 		PAN !
 		Jean-eud (cagoulé-gun): Je t'avais prévenu...
 		Vous vous écroulez au sol, et regrettez votre décision
-		[end_timeline]
+		jump Menu/
 	- Rester cacher
 		Le kidnappeur s'enerve, renverse les placards, les pneus qui trainent etc
 		Il se rapproche dangereusement de vous

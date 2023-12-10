@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bljab68bafu1l"
+path="res://.godot/imported/Loona - Vamos a la playa OFFICIAL VIDEO.mp3-f259624e9bc014b7a3bd9ae6e3229e2f.mp3str"
+
+[deps]
+
+source_file="res://assets/Loona - Vamos a la playa OFFICIAL VIDEO.mp3"
+dest_files=["res://.godot/imported/Loona - Vamos a la playa OFFICIAL VIDEO.mp3-f259624e9bc014b7a3bd9ae6e3229e2f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
