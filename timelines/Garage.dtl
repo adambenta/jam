@@ -19,7 +19,8 @@ Vous entendez le kidnappeur en train de redescendre des escaliers, vous décidez
 		Sous l'effet de choc, vous décidez de courir et sortir de la pièce
 		Vous remontez les escalier et partez ensuite vers la porte d'entrée, et courrez pendants des killomètres
 		Vous rentrez chez vous, et vous n'entendrez plus jamais parler de cette histoire
-		[end_timeline]
+		End
+		jump Menu/
 	- Rester cacher
 		Vous restez cacher sans bouger
 		Jean-eud (cagoulé): MONTRE TOI !
@@ -31,6 +32,7 @@ Vous entendez le kidnappeur en train de redescendre des escaliers, vous décidez
 		PAN !
 		Jean-eud (cagoulé-gun): MERDE !
 		Vous vous écroulez au sol, et c'en est finis pour vous..
+		Bad ending
 		jump Menu/
 - Se cacher dèrrière des cartons
 	Vous vous cachez derriere les boites et arretez de bouger
@@ -47,6 +49,7 @@ Vous entendez le kidnappeur en train de redescendre des escaliers, vous décidez
 		PAN !
 		Jean-eud (cagoulé-gun): Je t'avais prévenu...
 		Vous vous écroulez au sol, et regrettez votre décision
+		Bad ending
 		jump Menu/
 	- Rester cacher
 		Le kidnappeur s'enerve, renverse les placards, les pneus qui trainent etc
@@ -66,3 +69,11 @@ Vous entendez le kidnappeur en train de redescendre des escaliers, vous décidez
 	Jean-eud (cagoulé-enervé): SORT DE TA CACHETTE
 	Il s'énerve, et repart de la pièce
 	leave Jean-eud
+moi: Enfin ! Je peux m'échapper de cet enfer et ce malade
+Vous attrapez les clés, et vous ouvrez la porte du garage, vous entendez au loin le kidnappeur crier et arriver vers vous
+Mais c'est trop tard, vous etes deja parti
+En rentrant, vous allez voir la police, qui effectueront une arrestation
+Le kidnappeur était enfait Jean-Eudes, un ancien client dont le projet a rater, bien qu'un avenir prometteur, l'échec l'as rendu fou
+Il sera incarcéré et finira sa vie dans une prison pour jeunes entreprenneurs a succès fous
+Good ending, mais il existe mieux
+jump Menu/
