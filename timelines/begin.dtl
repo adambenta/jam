@@ -51,6 +51,7 @@ moi: (!!)
 moi: D'accord laissez moi réflechire
 moi: ...
 - Un jeu de combat
+	jump jeu_de_combat/
 - Un jeu de platforme
 	jump platformer/
 - J'ai pas d'idée...

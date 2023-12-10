@@ -65,3 +65,13 @@ Jean-eud (cagoulé): Je vais te faire travailler aussi, de quoi as tu besoin pou
 Le kidnappeur vous déplace devant une table, et vous attache les jambes, le corps, et les mains, devant un ordinateur
 Jean-eud (cagoulé): Commence a travailler ! Je veux que ce projet soit le succès de ma vie !
 Jean-eud (cagoulé): Mon jeu {jdc.Name} va devenir le jeu numéro 1 j'en suis sur !
+Comment ca t'on monétiser le jeu?
+- Le rendre gratuit
+	moi: Je pense que rendre le jeu gratuis le rendra beaucoup plus accessible et permettra du coup d'avoir plus de joueur.
+	Jean-eud (cagoulé): Je vois très bonne idée, fesons comme ca alors
+- Le rendre payant
+	moi: Mettons le jeu payant pour pouvoir gagner des revenus.
+	Jean-eud: Je vois, il faut bien gagner de l'argent quand même
+	moi: Bien sûr.
+	leave Jean-eud
+	jump faillite/
