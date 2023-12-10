@@ -19,6 +19,7 @@ Jean-eud (cagoulé-enervé): Ne pose plus de question inutile ou ca va mal finir
 Jean-eud: C'EST MOI QUI PARLE ICI.
 moi: ...
 Jean-eud (cagoulé): Je vais t'expliquer la raison pour laquelle tu te trouve ici, je vais être clair et je ne vais pas me répéter.
+label Première question
 Jean-eud: j’ai fait faillite après avoir investi ÉNORMÉMENT d’argent sur une application mobile...
 - Combien avez-vous investi?
 	Jean-eud: 300€...
@@ -49,6 +50,7 @@ moi: Ooookééééé? Quel genre d'idées devrais-je vous donner?
 Jean-eud (cagoulé-enervé): JE SAIS PAS MOI C'EST TOI LE SPECIALISTE!
 moi: (!!)
 moi: D'accord laissez moi réflechire
+label Choix du jeu
 moi: ...
 - Un jeu de combat
 	jump jeu_de_combat/

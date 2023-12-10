@@ -38,7 +38,7 @@ Vous entendez le kidpanneur parler a l'étage, vous observez un tournevis posé 
 	set {jdc.Tournevise} = 1
 - Non, je ne bouge pas
 	Vous continuez de prendre le temps d'observer, et entendez des pas déscendre de l'étage
-join Jean-eud 1 [animation="Slide In Right"]
+join Jean-eud (cagoulé) 2 [animation="Slide In Right" length="1"]
 Jean-eud (cagoulé): Je suis de retour, je ne t'ait pas trop manqué? De toute façon on va se voir souvent toi et moi d'ici les prochains jours, semaines, voir mois, je n'ait pas encore décidé haha
 Jean-eud (cagoulé): Je sent que ca projet va etre une réussite !
 Jean-eud (cagoulé): Des années que j'attends ce moment, tu est ma poule aux oeufs d'ors.
@@ -51,7 +51,7 @@ Jean-eud (cagoulé): Je vais te faire travailler aussi, de quoi as tu besoin pou
 		Vous vous déplacer ensuite vers la porte du fond et attérissez dans un garage
 		jump Garage/
 	Le kidnappeur redescend après quelques minutes
-	join Jean-eud 1 [animation="Slide In Right"]
+	join Jean-eud (cagoulé) 2 [animation="Slide In Right"]
 - D'une meilleure chaise
 	Jean-eud (cagoulé): D'accord, laisse moi te déplacer alors
 	if {jdc.Tournevise} == 1:
@@ -60,7 +60,6 @@ Jean-eud (cagoulé): Je vais te faire travailler aussi, de quoi as tu besoin pou
 		Jean-eud (cagoulé-enervé): UN TOURNEVIS? Tu as essayer de téchapper d'ici ?!
 		Jean-eud (cagoulé-enervé): Tu n'aurais jamais dut tenter ca.. je finirais ce projet seul !
 		Le kidnappeur vous endort a l'aide d'un somnifère, et vous ne vous reveillerez jamais
-		label END tourn trouvé
 		[end_timeline]
 Le kidnappeur vous déplace devant une table, et vous attache les jambes, le corps, et les mains, devant un ordinateur
 Jean-eud (cagoulé): Commence a travailler ! Je veux que ce projet soit le succès de ma vie !
