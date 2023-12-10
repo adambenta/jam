@@ -1,0 +1,66 @@
+Vous observez autour de vous, et essayez de trouver un moyen de vous échapper, la porte du garage
+Vous entendez le kidnappeur en train de redescendre des escaliers, vous décidez de vous cachez
+- Se cacher dèrriere la porte
+	Pris de panique, vous vous cacher derriere la porte
+	Le kidnappeur arrive et rentre dans la pièce énerver
+	join Jean-eud (cagoulé-enervé) 2 [animation="Slide In Right"]
+	Jean-eud (cagoulé-enervé): AHHHHH ! OU EST TU PARTI ?!!
+	Il rentre dans le garage
+	Jean-eud (cagoulé-enervé): Sort de ta cachette !!
+	Vous vous retrouvez dans son dos, vous voyez des outils posés sur l'établi, que faites vous?
+	- Attaquer le kidnappeur
+		Vous attrapez un marteau a coté de vous
+		Et attaquez le kidnappeur d'un coup sec
+		moi: PREND CA !
+		Jean-eud (cagoulé-enervé): AHHHHH !
+		Le kidnappeur s'écroule au sol
+		Sous l'effet de choc, vous décidez de courir et sortir de la pièce
+		Vous remontez les escalier et partez ensuite vers la porte d'entrée, et courrez pendants des killomètres
+		Vous rentrez chez vous, et vous n'entendrez plus jamais parler de cette histoire
+		[end_timeline]
+	- Rester cacher
+		Vous restez cacher sans bouger
+		Jean-eud (cagoulé): MONTRE TOI !
+		En essayant de bouger pour vous echapper, vous marcher sur un clou
+		moi: AHHHH !!!
+		Vous faites peur au kidnappeur par la meme occassion, qui par reflexe, fais quelque chose..
+		Jean-eud (cagoulé-gun): AHHHH !
+		PAN !
+		Jean-eud (cagoulé-gun): MERDE !
+		Vous vous écroulez au sol, et c'en est finis pour vous..
+		[end_timeline]
+	- Se cacher dèrrère les cartons
+		- Sortir et courir
+			Vous sortez et jeter des cartons sur le kidnappeur
+			moi: Tu m'aura jamais, laissez moi tranquille !
+			Vous bousculez le kidnappeur et courez vers la porte
+			Jean-eud (cagoulé-enervé): ARRETE TOI !
+			PAN !
+			update Jean-eud (cagoulé-gun)
+			Jean-eud (cagoulé-gun): Je t'avais prévenu...
+			Vous vous écroulez au sol, et regrettez votre décision
+			[end_timeline]
+		- Rester cacher
+			Le kidnappeur s'enerve, renverse les placards, les pneus qui trainent etc
+			Il se rapproche dangereusement de vous
+			Commence a toucher les cartons
+			Heuresement pour vous, un objet tombe dans la pièce d'a coté, il court donc dans cette direction
+			Jean-eud (cagoulé-enervé): AHHHHH ! JE TE TROUVERAIS !
+			Il finis par partir de la pièce
+			leave Jean-eud
+	- Se cacher dans la voiture
+		Vous vous précipitez vers la voiture
+		Vous tentez de vous y accrocher et d'y escalader, mais vous commencez a entendre le kidnappeur crier de colère !
+		Vous vous dépéchez et reussisez a vous cacher a l'intérieur sur le siège arrière
+		join Jean-eud (cagoulé-enervé) 2
+		Jean-eud (cagoulé-enervé): AHHH, MAIS OU EST-TU
+		Il commence a renverser tout les cartons et les meubles de la pièce
+		Jean-eud (cagoulé-enervé): SORT DE TA CACHETTE
+		Il s'énerve, et repart de la pièce
+		leave Jean-eud
+- Se cacher dèrriere les cartons
+	update Jean-eud (cagoulé-gun)
+	Vous vous précipitez vers les cartons, renversant des objets sur le chemin
+	Vous vous cachez derriere les boites et arretez de bouger
+	Jean-eud (cagoulé-enervé): AHHHHH ! OU EST TU PARTI ?!!
+	Le kidnappeur cherche un peu partout, et se rapproche de votre position
