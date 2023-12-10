@@ -41,4 +41,4 @@ Jean-eud (cagoulé): Combien de temps pense-tu que ça va prendre?
 if {confiance} <= 0:
 	jump killed/
 if {confiance} > 2:
-	jump conf_ok/
+	jump conf_haut/

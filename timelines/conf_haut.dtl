@@ -9,3 +9,6 @@ Je marche doucement sans faire de bruit vers la porte.
 J'ouvre la porte...
 Et je m'échappe à pleine vitesse de cette maison.
 Je fini alors par sortir de cette situation vivant...
+leave Jean-eud
+[background arg="res://assets/image.jpg" fade="0.0"]
+jump Menu/
