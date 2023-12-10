@@ -1,0 +1,19 @@
+Bienvenue dans notre jeu "Escape from a crazy serial-dev"
+label Question menu
+Ou souhaitez vous aller?
+- Début du jeu
+	jump begin/
+- Checkpoints
+	Vous avez le choix entre plusieurs checkpoints importants du jeu \:
+	- Premiere question
+		jump begin/Première question
+	- Plateformer
+		jump platformer/
+	- Jeu de combat
+		jump jeu_de_combat/
+	- Garage / escape
+		jump Garage/
+	- Retour
+		jump Question menu
+- Quitter
+	[end_timeline]
