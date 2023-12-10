@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d3s1bh4tq6lmy"
+path="res://.godot/imported/Y2meta.app - Basement Storage Room Lights, Creaking, Wind 15 Minutes of Ambience (128 kbps).mp3-2740e8cab704a30be90f9ae6c09efecf.mp3str"
+
+[deps]
+
+source_file="res://assets/Y2meta.app - Basement Storage Room Lights, Creaking, Wind 15 Minutes of Ambience (128 kbps).mp3"
+dest_files=["res://.godot/imported/Y2meta.app - Basement Storage Room Lights, Creaking, Wind 15 Minutes of Ambience (128 kbps).mp3-2740e8cab704a30be90f9ae6c09efecf.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

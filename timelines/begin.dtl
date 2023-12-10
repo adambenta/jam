@@ -1,32 +1,55 @@
+[music path="res://assets/Y2meta.app - Basement Storage Room Lights, Creaking, Wind 15 Minutes of Ambience (128 kbps).mp3" fade="0.0" volume="0.0"]
 [background arg="res://assets/INT_BASEMENT_NIGHT.png" fade="0.0"]
-Hum...
-Où... Où suis-je?
-Qu'est-ce qui s'est passé?
-Je marchais la nuit seul vers le super marché. Puis, en rentrant chez moi... quelqu'un me suivait.
-Il y avait cette personne... cagoulée. Elle est apparue derrière moi, a mis un mouchoir sur mon visage...
-Un somnifère... l'odeur... Je me suis évanoui.
-Et maintenant, je me réveille ici, je suis attaché à une chaise, mes mains on été ligotées avec une corde, c'est trop serré, je ne peux pas bouger.
- Où suis-je?
-Il faut que je m'échappe. Il faut que je trouve un moyen de sortir d'ici.
-Qui êtes-vous? Pourquoi suis-je ici?
+moi: Hum...
+moi: Où... Où suis-je?
+moi: Qu'est-ce qui s'est passé?
+moi: Je marchais la nuit seul vers le super marché. Puis, en rentrant chez moi... quelqu'un me suivait.
+moi: Il y avait cette personne... cagoulée. Elle est apparue derrière moi, a mis un mouchoir sur mon visage...
+moi: Un somnifère... l'odeur... Je me suis évanoui.
+moi: Et maintenant, je me réveille ici, je suis attaché à une chaise, mes mains on été ligotées avec une corde, c'est trop serré, je ne peux pas bouger.
+moi: Où suis-je?
+moi: Il faut que je m'échappe. Il faut que je trouve un moyen de sortir d'ici.
+join Jean-eud 2
+moi: Qui êtes-vous? Pourquoi suis-je ici?
 Jean-eud: ...
 Jean-eud: Ah, te voilà réveillé.
-Qui êtes vous?
-Dites-moi ce qui se passe. Pourquoi suis-je ici?
-Jean-eud: Ne pose plus de question inutile ou ca va mal finir.
+moi: Qui êtes vous?
+moi: Dites-moi ce qui se passe. Pourquoi suis-je ici?
+Jean-eud (cagoulé-enervé): Ne pose plus de question inutile ou ca va mal finir.
 Jean-eud: C'EST MOI QUI PARLE ICI.
-...
-Jean-eud: Je vais t'expliquer la raison pour laquelle tu te trouve ici, je vais être clair et je ne vais pas me répéter.
+moi: ...
+Jean-eud (cagoulé): Je vais t'expliquer la raison pour laquelle tu te trouve ici, je vais être clair et je ne vais pas me répéter.
 Jean-eud: j’ai fait faillite après avoir investi ÉNORMÉMENT d’argent sur une application mobile...
 - Combien avez-vous investi?
 	Jean-eud: 300€...
-	...
+	moi: ...
 - Quelle était cette application?
 	Jean-eud: C'était un trombinoscope...
-	(Tiens, ca me dis un truc...)
+	moi: (Tiens, ca me dis un truc...)
 Jean-eud: Bref, tout ça c'est du passé maintenant mon but est de me lancer vers une nouvelle aventure!!
-Que voulez vous faire?
+moi: Que voulez vous faire?
 Jean-eud: J'ai envie...
 Jean-eud: De créer...
 Jean-eud: UN JEU VIDEO!!!!!!
-...
+moi: ...
+Jean-eud: ...
+moi: Est ce que je peux poser une question?
+moi: Va y je t'autorise.
+moi: Pourquoi m'avez-vous kidnappé?
+Jean-eud: J'Y ARRIVE BORDEL!!!
+moi: ...
+Jean-eud: Donc je reprend, je n'avais aucune compétences dans ce domaine, donc je t'ai kidnappé.
+moi: ...
+moi: Vous m'avez kidnappé pour que je vous aide à créer un jeu vidéo?
+Jean-eud: ...
+Jean-eud: Oui.
+moi: (C'est vraiment une stupide raison pour kidnapper une personne.)
+Jean-eud: Ton but à partir de maintenant c'est de me donner des idées pour créer un jeu vidéo que TOUT LE MONDE AIMERAIS ACHETER
+moi: Ooookééééé? Quel genre d'idées devrais-je vous donner?
+Jean-eud: JE SAIS PAS MOI C'EST TOI LE SPECIALISTE!
+moi: (!!)
+moi: D'accord laissez moi réflechire
+moi: ...
+- Un jeu de combat
+- Un jeu de platforme
+- J'ai pas d'idée...
