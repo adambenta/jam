@@ -1,4 +1,17 @@
-Jean-eud: <Empty Text Event>
-<Empty Text Event>
-<Empty Text Event>
+Jean-eud: Une jeu de platform hein...
+Jean-eud: Mais ce marcher est totalement bondé, même moi qui n'ai jamais joué à un jeu vidéo connais mario.
+Jean-eud: Mais ce marché est totalement bondé, même moi qui n'ai jamais joué à un jeu vidéo connais mario.
+moi: C'est vrai que le style de jeu platformer est extrêmement repris, mais il y a toujours de très bon platformers qui sont sorties récemment et qui ont connu un grand succès.
+set {confiance} = 0
+Jean-eud: Ah quoi pensez vous exactement?
+- Détachez moi je vous montre sur mon telephone
+	set {confiance} -= 1
+	Jean-eud (cagoulé-enervé): Comment ça tu veux que je te détache comme ça? Tu m'a pris pour qui?
+	moi: Désolé... Pouvez-vous alors au moins regarder sur votre ordinateur alors?
+	Jean-eud: Ok. Fais gaffe à ce que tu dis à tout moment je me débarrasse de toi.
+	moi: ...
+- Regardez un exemple sur youtube
+	set {confiance} += 1
+	Ok, je vais voir.
+Jean-eud (cagoulé): Pense tu pouvoir créer ce type de jeu?
 <Empty Text Event>
