@@ -1,6 +1,5 @@
 Jean-eud: Une jeu de platform hein...
 Jean-eud: Mais ce marcher est totalement bondé, même moi qui n'ai jamais joué à un jeu vidéo connais mario.
-Jean-eud: Mais ce marché est totalement bondé, même moi qui n'ai jamais joué à un jeu vidéo connais mario.
 moi: C'est vrai que le style de jeu platformer est extrêmement repris, mais il y a toujours de très bon platformers qui sont sorties récemment et qui ont connu un grand succès.
 set {confiance} = 0
 Jean-eud: Ah quoi pensez vous exactement?
@@ -13,5 +12,32 @@ Jean-eud: Ah quoi pensez vous exactement?
 - Regardez un exemple sur youtube
 	set {confiance} += 1
 	Ok, je vais voir.
-Jean-eud (cagoulé): Pense tu pouvoir créer ce type de jeu?
-<Empty Text Event>
+Jean-eud (cagoulé): Pense tu pouvoir créer ce type de jeu? (montre une vidéo)
+- Oui sans probleme
+	set {confiance} += 3
+	Jean-eud: C'est bon à entendre.
+- Je vais avoir besoin d'aide
+	set {confiance} += 1
+	Jean-eud: Rah tu ne m'aide pas la...
+	Jean-eud: Bon on vera plus tard.
+- Non
+	Jean-eud (cagoulé-enervé): Comment ca non?
+	- Je vais avoir besoin d'aide...
+		set {confiance} -= 1
+		Jean-eud (cagoulé-enervé): Pfff tu m'aide vraiment pas.
+	- Je n'ai pas les capacités
+		jump killed/
+Jean-eud (cagoulé): Combien de temps pense-tu que ça va prendre?
+- 2 jours
+	set {confiance} -= 1
+	Jean-eud (cagoulé-enervé): 2 jours, tu te fous de moi, même moi qui n'ai jamais faire de jeu peux comprendre que c'est impossible de faire ca en 2 jours.
+- 2 semaines
+	set {confiance} += 2
+	Jean-eud (cagoulé): 2 semaines? Ca à l'aire resonable.
+- 2 mois
+	set {confiance} -= 2
+	Jean-eud (cagoulé-enervé): 2 MOIS!!! Je ne vais pas attendre aussi longtemps!!!
+if {confiance} <= 0:
+	jump killed/
+if {confiance} > 2:
+	jump conf_ok/
